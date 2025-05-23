@@ -1,2 +1,9 @@
-# us_heat_svi_pop_proj
-Median projected acute (95% maximum temperature, hot days (>37.5C)) and chronic (cooling degree days) heat hazard are assessed in contemporary (1995-2014) and projected (2041-2060) epochs across 25+ climate models under three climate scenarios against contemporary social vulnerability index (SVI).
+# Projecting Heat Risk in the US through Mid-Century
+
+This repository includes the scripts used to conduct the analysis for "A US heat disaster? Intersection of social vulnerability and temperature extremes exacerbated by mid-century climate change and population shifts." Processed model and population outputs at the census tract can be downloaded from the [CAFE Collection](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JQOYDI) in Harvard Dataverse. 
+
+Popp, Z., Wing, I. S., Lane, K. J., & Wellenius, G. A. (2025). A US heat disaster? Intersection of social vulnerability and temperature extremes exacerbated by mid-century climate change and population shifts. Environmental Research: Health, 3(2), 025009. https://doi.org/10.1088/2752-5309/ADB902
+
+In this study we calculated multiple hazard metrics for chronic, acute, and extreme heat include threshold measures for energy expenditure (cooling degree days, health hazardous hot days) and relative measures for local heat (95th percentile) in contemporary (1995-2014) and projected (2041-2060) epochs across 25+ climate models under three climate scenarios (ssp2, ssp3, ssp5). We joined the hazard metrics with population projections from Gao et al., (also by SSP) to support projections for population exposure. We further link the exposure metrics with vulnerability in the 2020 social vulnerability index, a composite of measures that predispose communities to poorer outcomes in the face of natural disasters. The SVI includes age, race/ethnicity, outcome, household composition and more measures that have been found to predispose communities to the health hazards of extreme heat. 
+
+There are several scripts included in the repository, for building the different relevant metrics and for analyzing the tract-level outputs.
